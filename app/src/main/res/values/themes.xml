@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_primary">#0F766E</color>
+    <color name="teal_primary_dark">#5EEAD4</color>
+    <color name="status_bg_light">#F1F5F9</color>
+    <color name="status_bg_dark">#1E293B</color>
+
+    <style name="Theme.OpencodeStarter" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="OC.SectionTitle" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="OC.Mono" parent="">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

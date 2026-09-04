@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpencodeStarter</string>
+    <string name="desc_workdir">工作目录（空 = Termux HOME）</string>
+    <string name="desc_port">端口（空 = 随机端口）</string>
+</resources>

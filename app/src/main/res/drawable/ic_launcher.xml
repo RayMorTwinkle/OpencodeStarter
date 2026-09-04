@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自绘 launcher icon：深色圆角终端卡片 + >_ 提示符 + 右上状态圆点 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#12211C"
+        android:pathData="M14,14h80a14,14 0 0,1 14,14v52a14,14 0 0,1 -14,14h-80a14,14 0 0,1 -14,-14v-52a14,14 0 0,1 14,-14z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#5EEAD4"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,44l12,10 -12,10" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#5EEAD4"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M50,68h22" />
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M84,21a7,7 0 1,0 0.1,0z" />
+</vector>

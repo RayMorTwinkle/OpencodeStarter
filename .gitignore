@@ -1,0 +1,17 @@
+# Gradle / Android
+.gradle/
+build/
+app/build/
+local.properties
+
+# Release 签名（本地生成，不进仓库；丢了就重新生成，用户重装即可）
+release.keystore
+keystore.properties
+
+# dist 是本机打包产物目录，不进仓库（GitHub Release 页下载 APK）
+dist/
+
+# macOS / IDE
+.DS_Store
+.idea/
+*.iml

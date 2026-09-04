@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Termux RUN_COMMAND 必需：发送方声明，用户还需在系统设置里手动授予 -->
+    <uses-permission android:name="com.termux.permission.RUN_COMMAND" />
+
+    <!-- targetSdk>=30 包可见性，否则 intent 发不出去 -->
+    <queries>
+        <package android:name="com.termux" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.OpencodeStarter"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Termux 结果回调用：PendingIntent 指向本 Service（exported=false，仅 Termux 经 PendingIntent 触发） -->
+        <service
+            android:name=".PluginResultsService"
+            android:exported="false" />
+    </application>
+</manifest>
